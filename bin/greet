@@ -4,3 +4,4 @@ require_relative "../lib/greeting.rb"
 puts "Hi! I'm HAL, what's your name?"
 # code your CLI here!
 frog = gets.chomp.strip
+greeting(frog)
